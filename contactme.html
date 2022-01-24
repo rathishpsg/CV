@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    </head>
+<body>
+    <h3>Contact Me</h3>
+    <ul>
+        <li><a href="https://www.facebook.com/rathishmariner">Facebook </a></li>
+        <li><a href="https://wa.me/+918015216995">Whatsapp</a></li>
+        <li><a href="https://www.instagram.com/rathish_mariner/">Instagram</a></li>
+        <li><a href="mailto:rathishkumar.in@gmail.com">Gmail</a></li>
+    </ul>
+<hr>
+<form action="mailto:rathishkumar.in@gmail.com" method="post" enctype="text/plain">
+      <label>Your Name :</label>
+      <input type="text" name="yourname"><br><br>
+      <label for="Select Country">Select Country :</label>
+      <input list="Select Country" name="Select Country">
+      <datalist id="Select Country">
+              <option value="India"></option>
+              <option value="Australia"></option>
+              <option value="USA"></option>
+              <option value="UK"></option>
+              <option value="China"></option>
+              <option value="France"></option>
+          </datalist> <br><br>
+      <label>Select State</label>
+      <input list="Select State" name="Select State">
+          <datalist id="Select State">
+              <option value="Tamil Nadu"></option>
+              <option value="Andhra Pradesh"></option>
+              <option value="Kerela"></option>
+              <option value="Karnataka"></option>
+              <option value="gujarat"></option>
+              <option value="New Delhi"></option>
+          </datalist> <br><br>
+          <label>Email :</label>
+      <input email name="email"><br><br>
+      <label>Date of Birth :</label>
+      <input type="date" name="Date of Birth"><br><br>
+      <label>Subscribe for mailing list :</label>
+      <input type="checkbox" name="Checkbox"><br><br>
+      <label>Your Message:</label>
+        <textarea name="Your Message" rows="10" cols="20"></textarea><br><br>
+      <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
